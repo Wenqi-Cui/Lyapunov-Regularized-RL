@@ -20,7 +20,7 @@ The RNN framework for training the neural network controller with regularization
 <img src="/RNN.png" height="200px" width="600px" >
 
 # Language and Dependencies
-All code are implemented in Python. Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear.mat'. We used the open-source Python package TensorFlow 2.0 to implement RNN and train the neural network models.
+All code are implemented in Python. Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_lossy_std_0221.mat'. We used the open-source Python package TensorFlow 2.0 to implement RNN and train the neural network models.
 
 
 # Code References
