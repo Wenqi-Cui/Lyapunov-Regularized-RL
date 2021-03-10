@@ -17,6 +17,7 @@ A key challenge is to enforce that a learned controller must be stabilizing. Thi
 
 # Framework for Lyapunov regularized RL
 The RNN framework for training the neural network controller with regularization from a seperatly trained neural Lyapunov function
+<img src="/RNN.png" height="450px" width="700px" >
 
 # Language and Dependencies
 All code are implemented in Python. Data for the power system is imported from MATLAB as 'IEEE_39bus_Kron.mat'. The coeffcient for linear droop control is obtained by fmincon function of Matlab as 'Sol_linear.mat'. We used the open-source Python package TensorFlow 2.0 to implement RNN and train the neural network models.
